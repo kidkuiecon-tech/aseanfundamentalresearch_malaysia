@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malaysia Fiscal Policy Summary Report</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Sarabun', sans-serif; background-color: #f0f4f8; color: #1e293b; }
+        .section-card { @apply bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-8; }
+        .timeline-step { @apply relative pl-8 pb-6 border-l-2 border-teal-200 last:border-0 last:pb-0; }
+        .timeline-dot { @apply absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-teal-600 border-4 border-white shadow-sm; }
+        .metric-card { @apply p-6 rounded-xl border border-slate-100 bg-slate-50 flex flex-col justify-center items-center text-center; }
+        
+        /* Enhanced CTA Styles */
+        .cta-container { @apply bg-white border-2 border-teal-600 rounded-3xl p-10 shadow-2xl relative overflow-hidden; }
+        .cta-glow { @apply absolute -top-24 -right-24 w-64 h-64 bg-teal-600/5 rounded-full blur-3xl; }
+        
+        .btn-cta-primary { @apply flex items-center justify-center px-10 py-5 bg-teal-600 hover:bg-teal-700 text-white text-lg font-bold rounded-2xl transition-all shadow-xl hover:shadow-teal-300 hover:-translate-y-1 active:translate-y-0 w-full md:w-auto text-center; }
+        .btn-cta-secondary { @apply flex items-center justify-center px-10 py-5 bg-slate-800 hover:bg-slate-900 text-white text-lg font-bold rounded-2xl transition-all shadow-xl hover:shadow-slate-300 hover:-translate-y-1 active:translate-y-0 w-full md:w-auto text-center; }
+    </style>
+</head>
+<body class="p-4 md:p-10">
+
+    <div class="max-w-6xl mx-auto">
+        <!-- Header -->
+        <header class="bg-gradient-to-r from-teal-900 to-slate-900 p-10 rounded-3xl text-white mb-10 relative overflow-hidden shadow-xl">
+            <div class="relative z-10">
+                <p class="text-teal-400 font-bold tracking-widest text-xs mb-2 uppercase italic">Malaysia Fiscal Update</p>
+                <h1 class="text-3xl md:text-5xl font-extrabold mb-4">มาเลเซีย: Fiscal Consolidation และการปฏิรูปเงินอุดหนุน</h1>
+                <p class="text-slate-400 max-w-2xl text-sm md:text-base leading-relaxed">
+                    วิเคราะห์แนวทางการปรับลดการขาดดุล โครงสร้างรายจ่ายประจำที่สูง และความท้าทายจากการบริหารจัดการต้นทุนพลังงานภายใต้กรอบ Ekonomi MADANI
+                </p>
+            </div>
+            <div class="absolute top-0 right-0 w-64 h-64 bg-teal-600/10 rounded-full -mr-20 -mt-20 blur-3xl"></div>
+        </header>
+
+        <!-- Intro: Fiscal Strategy -->
+        <section class="section-card">
+            <div class="p-8 border-b border-slate-100 bg-slate-50/50">
+                <h2 class="text-2xl font-bold text-slate-800">บทนำและทิศทางนโยบาย (Fiscal Strategy)</h2>
+            </div>
+            <div class="p-8 grid md:grid-cols-3 gap-6">
+                <div class="md:col-span-2">
+                    <p class="text-slate-600 leading-relaxed text-lg font-medium">
+                        "Fiscal Consolidation, Subsidy Reform and Limited SWF Role"
+                    </p>
+                    <p class="mt-2 text-slate-600">
+                        มาเลเซียกำลังมุ่งเน้นการฟื้นฟูพื้นที่ทางการคลังผ่านการปฏิรูปเงินอุดหนุน (Subsidy Reform) จากแบบครอบคลุมไปสู่เป้าหมายเฉพาะกลุ่ม เพื่อลดภาระรายจ่ายประจำที่บิดเบือนเศรษฐกิจ ภายใต้กรอบ <strong>Ekonomi MADANI</strong> เพื่อยกระดับศักยภาพเศรษฐกิจระยะยาว
+                    </p>
+                </div>
+                <div class="bg-teal-50 p-6 rounded-xl border border-teal-100 flex flex-col justify-center text-center">
+                    <h4 class="text-sm font-bold text-teal-800 uppercase mb-2 italic">เป้าหมายหลัก</h4>
+                    <p class="text-sm text-teal-900 leading-relaxed font-medium">
+                        ลดการขาดดุลการคลังอย่างค่อยเป็นค่อยไป และเพิ่มความโปร่งใสผ่านกฎหมายความรับผิดชอบทางการคลัง (FRA 2023)
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline -->
+        <section class="section-card">
+            <div class="p-8 border-b border-slate-100 bg-slate-50/50">
+                <h2 class="text-2xl font-bold text-slate-800">วงจรงบประมาณมาเลเซีย (Budgeting Timeline)</h2>
+                <p class="text-xs text-slate-500 mt-1 uppercase font-bold tracking-wider italic text-teal-600">ปีงบประมาณ: มกราคม – ธันวาคม</p>
+            </div>
+            <div class="p-8 grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-0">
+                    <div class="timeline-step">
+                        <div class="timeline-dot"></div>
+                        <h4 class="font-bold text-slate-800">ครึ่งแรกของปี</h4>
+                        <p class="text-xs text-slate-500">MOF กำหนดกรอบเศรษฐกิจและสมมติฐานรายได้</p>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="timeline-dot"></div>
+                        <h4 class="font-bold text-slate-800">ก.ค. - ส.ค.</h4>
+                        <p class="text-xs text-slate-500">ออก Pre-Budget Statement เพื่อสื่อสารทิศทางนโยบาย</p>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="timeline-dot bg-teal-600"></div>
+                        <h4 class="font-bold text-teal-600 italic">ต.ค. (เสนอรัฐสภา)</h4>
+                        <p class="text-xs text-slate-500 font-medium">รัฐมนตรีคลังเสนอร่างงบประมาณ (Budget Speech)</p>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="timeline-dot"></div>
+                        <h4 class="font-bold text-slate-800">ต.ค. - ธ.ค.</h4>
+                        <p class="text-xs text-slate-500">รัฐสภาพิจารณา Supply Bill รายละเอียดรายมาตรา</p>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="timeline-dot bg-green-500 border-green-200"></div>
+                        <h4 class="font-bold text-green-600">1 ม.ค.</h4>
+                        <p class="text-xs text-green-700 font-bold uppercase">เริ่มต้นปีงบประมาณใหม่</p>
+                    </div>
+                </div>
+                <div class="bg-slate-900 p-8 rounded-2xl text-white shadow-lg">
+                    <h4 class="text-teal-400 font-bold mb-4 uppercase text-xs tracking-widest">จุดแข็งด้านธรรมาภิบาล</h4>
+                    <p class="text-sm opacity-80 leading-relaxed mb-4">
+                        การมีกฎหมาย Public Finance and Fiscal Responsibility Act 2023 ช่วยสร้างสมออ้างอิง (Anchor) ที่แข็งแกร่งในการลดการขาดดุลในระยะกลาง
+                    </p>
+                    <div class="p-4 bg-white/5 rounded-lg border border-white/10 text-xs italic">
+                        "มาเลเซียมีวินัยในการผลักดันงบประมาณให้จบภายในปีปฏิทิน ทำให้การเบิกจ่ายต่อเนื่อง"
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- รายจ่าย (Expenditure) -->
+        <section class="section-card">
+            <div class="p-8 border-b border-slate-100 bg-slate-50/50">
+                <h2 class="text-2xl font-bold text-slate-800">โครงสร้างรายจ่ายประจำปี 2026 (Expenditure)</h2>
+                <p class="text-sm text-slate-500">งบประมาณรวม: 419.2 พันล้านริงกิต</p>
+            </div>
+            <div class="p-8 grid md:grid-cols-2 gap-8">
+                <div class="space-y-6">
+                    <div>
+                        <div class="flex justify-between text-sm mb-2">
+                            <span class="font-bold text-slate-700">รายจ่ายประจำ (Operating: OE)</span>
+                            <span class="text-slate-900 font-bold">80.7%</span>
+                        </div>
+                        <div class="w-full bg-slate-100 h-3 rounded-full overflow-hidden">
+                            <div class="bg-slate-700 h-full" style="width: 80.7%"></div>
+                        </div>
+                        <p class="text-[11px] text-slate-400 mt-1 italic">ภาระเงินเดือนบุคลากร (32%), ดอกเบี้ยจ่าย และเงินอุดหนุน</p>
+                    </div>
+                    <div>
+                        <div class="flex justify-between text-sm mb-2">
+                            <span class="font-bold text-teal-600 underline">รายจ่ายลงทุน (Development: DE)</span>
+                            <span class="text-teal-600 font-bold">19.3%</span>
+                        </div>
+                        <div class="w-full bg-slate-100 h-3 rounded-full overflow-hidden">
+                            <div class="bg-teal-600 h-full" style="width: 19.3%"></div>
+                        </div>
+                        <p class="text-[11px] text-slate-400 mt-1 italic">งบพัฒนาอุตสาหกรรม Semiconductor และ Green Economy</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="metric-card">
+                        <span class="text-xs text-slate-500 font-bold uppercase mb-1">รายจ่ายประจำ (OE)</span>
+                        <span class="text-xl font-bold text-slate-800">338.2 พันล้าน</span>
+                    </div>
+                    <div class="metric-card border-teal-100 bg-teal-50/50">
+                        <span class="text-xs text-teal-600 font-bold uppercase mb-1">รายจ่ายลงทุน (DE)</span>
+                        <span class="text-xl font-bold text-teal-700">81.0 พันล้าน</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- รายได้ (Revenue) -->
+        <section class="section-card">
+            <div class="p-8 border-b border-slate-100 bg-slate-50/50">
+                <h2 class="text-2xl font-bold text-slate-800">โครงสร้างรายได้รัฐบาลกลาง (Revenue)</h2>
+                <p class="text-sm text-slate-500">ประมาณการรายได้: 343.1 พันล้านริงกิต (Tax-to-GDP ~13%)</p>
+            </div>
+            <div class="p-8">
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm text-left">
+                        <thead class="bg-slate-50 text-slate-600 font-bold uppercase tracking-wider">
+                            <tr>
+                                <th class="px-6 py-4 rounded-tl-xl">ประเภทรายได้</th>
+                                <th class="px-6 py-4">รายได้ (พันล้านริงกิต)</th>
+                                <th class="px-6 py-4 text-center">สัดส่วน (%)</th>
+                                <th class="px-6 py-4 rounded-tr-xl">แหล่งที่มาหลัก</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-100">
+                            <tr>
+                                <td class="px-6 py-4 font-bold text-slate-800">ภาษีทางตรง (Direct Taxes)</td>
+                                <td class="px-6 py-4">187.4</td>
+                                <td class="px-6 py-4 text-center font-bold text-teal-600 underline">54.6%</td>
+                                <td class="px-6 py-4 text-slate-500">ภาษีเงินได้นิติบุคคลและบุคคลธรรมดา</td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 font-bold text-slate-800">ภาษีทางอ้อม (SST)</td>
+                                <td class="px-6 py-4">83.0</td>
+                                <td class="px-6 py-4 text-center font-bold text-slate-700">24.2%</td>
+                                <td class="px-6 py-4 text-slate-500">Sales and Service Tax</td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 font-bold text-slate-800">รายได้ไม่ใช่ภาษี (Non-Tax)</td>
+                                <td class="px-6 py-4">72.7</td>
+                                <td class="px-6 py-4 text-center font-bold text-slate-700">21.2%</td>
+                                <td class="px-6 py-4 text-slate-500">รวมเงินปันผล Petronas (20.0 พันล้าน)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="mt-8 p-6 bg-slate-900 rounded-2xl text-white flex flex-col md:flex-row justify-between items-center gap-6">
+                    <div>
+                        <h4 class="text-teal-400 font-bold text-xs uppercase mb-1">Petronas Dividend Note</h4>
+                        <p class="text-lg font-bold italic">เงินปันผล Petronas ต่ำที่สุดในรอบ 9 ปี</p>
+                        <p class="text-[11px] opacity-60 mt-1 leading-relaxed text-teal-200 max-w-md">
+                            สะท้อนความท้าทายในการพึ่งพารายได้ภาคพลังงาน เมื่อภาระเงินอุดหนุนเพิ่มขึ้นเร็วกว่าเงินปันผลที่ได้รับ
+                        </p>
+                    </div>
+                    <div class="text-right">
+                        <span class="text-4xl font-black text-teal-500">20.0</span>
+                        <p class="text-[10px] opacity-50 uppercase font-bold tracking-tighter">Billion RM Dividend</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ภาระหนี้ (Debt) -->
+        <section class="section-card">
+            <div class="p-8 border-b border-slate-100 bg-slate-50/50">
+                <h2 class="text-2xl font-bold text-slate-800">สถานะหนี้และการขาดดุล (Debt & Deficits)</h2>
+            </div>
+            <div class="p-8 grid md:grid-cols-2 gap-10 items-center">
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 shadow-inner">
+                    <div class="flex justify-between items-end mb-6">
+                        <div>
+                            <p class="text-xs text-slate-500 font-bold uppercase mb-1 tracking-wider">Federal Government Debt (2025)</p>
+                            <p class="text-5xl font-black text-slate-900">71.2%</p>
+                            <p class="text-[11px] text-slate-400 mt-2 italic font-medium">ของ GDP</p>
+                        </div>
+                    </div>
+                    <div class="w-full bg-slate-200 h-8 rounded-xl overflow-hidden flex shadow-inner">
+                        <div class="bg-teal-600 h-full shadow-lg" style="width: 71.2%;"></div>
+                    </div>
+                    <p class="mt-4 text-sm text-slate-600">
+                        มาเลเซียตั้งเป้าลดสัดส่วนหนี้ลงสู่ <strong>60%</strong> ในระยะกลางผ่านกระบวนการ Fiscal Consolidation
+                    </p>
+                </div>
+                <div class="space-y-4">
+                    <h4 class="text-lg font-bold text-slate-800 underline decoration-teal-500 decoration-2">ความท้าทายด้านการบริหารหนี้</h4>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        ภาระชำระหนี้และดอกเบี้ย (Debt Service) อยู่ที่ 58.3 พันล้านริงกิต หรือคิดเป็น 17.2% ของรายจ่ายประจำ ซึ่งเป็นรายจ่ายที่ลดลงได้ยากในระยะสั้น และเริ่มเบียดบังพื้นที่งบพัฒนา
+                    </p>
+                    <div class="p-4 bg-orange-50 border border-orange-100 rounded-xl text-xs text-orange-800">
+                        <strong>Risk:</strong> หากอัตราดอกเบี้ยอยู่ในระดับสูงนานกว่าที่คาด จะกระทบต่อเป้าหมายการลดการขาดดุล
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PDMO / Subsidy Pressure -->
+        <section class="section-card">
+            <div class="p-8 border-b border-slate-100 bg-slate-50/50">
+                <h2 class="text-2xl font-bold text-slate-800 italic">ความท้าทายจากเงินอุดหนุนพลังงาน (Energy Subsidy)</h2>
+                <p class="text-sm text-slate-500 uppercase font-bold text-teal-600 tracking-widest">สถานการณ์ ณ เมษายน 2026</p>
+            </div>
+            <div class="p-8 grid md:grid-cols-2 gap-12">
+                <div>
+                    <h4 class="text-sm font-bold text-slate-800 uppercase mb-6 flex items-center gap-2 underline decoration-teal-600">Subsidy Spike Analysis</h4>
+                    <div class="space-y-6">
+                        <div class="flex justify-between items-center bg-slate-50 p-4 rounded-xl border border-slate-100">
+                            <span class="text-sm font-bold">ก่อนวิกฤตพลังงาน</span>
+                            <span class="text-lg font-bold text-slate-400">700 ล้าน / เดือน</span>
+                        </div>
+                        <div class="flex justify-between items-center bg-red-50 p-4 rounded-xl border border-red-200">
+                            <span class="text-sm font-bold text-red-700 underline italic">เมษายน 2026</span>
+                            <span class="text-2xl font-black text-red-600 uppercase tracking-tighter">7,000 ล้าน / เดือน</span>
+                        </div>
+                        <div class="text-[11px] text-slate-500 text-center font-bold">
+                            "ภาระรายจ่ายเพิ่มขึ้นถึง 10 เท่าจากระดับปกติ"
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-teal-900 p-8 rounded-2xl text-white shadow-xl flex flex-col justify-center">
+                    <h4 class="text-teal-400 font-bold uppercase text-xs mb-4">มาตรการตอบโต้ของรัฐบาล</h4>
+                    <ul class="space-y-4 text-sm">
+                        <li class="flex gap-3">
+                            <span class="text-teal-400 font-bold">•</span>
+                            <span>ตัดลดงบวัสดุ บริการ และสินทรัพย์ลง <strong>10%</strong></span>
+                        </li>
+                        <li class="flex gap-3">
+                            <span class="text-teal-400 font-bold">•</span>
+                            <span>ลดงบอุดหนุนองค์กรตามกฎหมาย (Statutory Bodies) ลง <strong>20%</strong></span>
+                        </li>
+                        <li class="flex gap-3">
+                            <span class="text-teal-400 font-bold">•</span>
+                            <span>เร่งทบทวนกลไก BUDI95 เพื่อการอุดหนุน RON95 แบบตรงกลุ่มเป้าหมาย</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- SWF/GLIC Comparison -->
+        <section class="section-card">
+            <div class="p-8 border-b border-slate-100 bg-slate-50/50">
+                <h2 class="text-2xl font-bold text-slate-800">บทบาทกองทุนรัฐ (SWF & GLICs Role)</h2>
+            </div>
+            <div class="p-8">
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <div class="p-6 bg-slate-50 rounded-2xl border border-slate-200">
+                        <h4 class="text-sm font-bold text-slate-700 mb-4 uppercase text-center">มาเลเซีย (Khazanah/Petronas)</h4>
+                        <p class="text-sm text-slate-600 leading-relaxed italic text-center">
+                            เน้นการจ่ายเงินปันผล (Dividend) แบบไม่คงที่ (Discretionary) ขึ้นอยู่กับผลกำไร และไม่มีกลไกส่งเข้าสู่ระบงบประมาณแบบอัตโนมัติรายปีในสัดส่วนที่สูงเหมือนสิงคโปร์
+                        </p>
+                    </div>
+                    <div class="p-6 bg-teal-50 rounded-2xl border border-teal-100">
+                        <h4 class="text-sm font-bold text-teal-700 mb-4 uppercase text-center">สิงคโปร์ (GIC/Temasek)</h4>
+                        <p class="text-sm text-teal-800 leading-relaxed italic text-center font-bold">
+                            มีกลไก NIRC ที่ชัดเจนในรัฐธรรมนูญ สามารถนำผลตอบแทนจากการลงทุนมาใช้เป็นรายได้หลักของงบประมาณได้อย่างเป็นระบบ (Recurrent Revenue)
+                        </p>
+                    </div>
+                </div>
+                <p class="mt-6 text-xs text-slate-400 text-center font-medium italic">
+                    * มาเลเซียยังคงต้องพึ่งพาภาษีและการกู้ยืมเป็นหลัก เนื่องจาก GLICs ไม่ได้ถูกออกแบบมาเป็น Budget-financing Mechanism หลัก
+                </p>
+            </div>
+        </section>
+
+        <!-- CTA Buttons -->
+        <section class="mb-20">
+            <div class="cta-container">
+                <div class="cta-glow"></div>
+                <div class="relative z-10 text-center">
+                    <div class="inline-block p-3 bg-teal-100 rounded-2xl mb-4">
+                        <svg class="w-8 h-8 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                        </svg>
+                    </div>
+                    <h2 class="text-3xl font-black text-slate-800 mb-2">คลังข้อมูลนโยบายมาเลเซีย</h2>
+                    <p class="text-slate-500 text-base max-w-2xl mx-auto mb-10 font-medium leading-relaxed">
+                        เข้าถึงรายละเอียดนโยบายการปรับฐานะการคลังและงานวิจัยเชิงลึกของมาเลเซีย เพื่อการวิเคราะห์ที่แม่นยำ
+                    </p>
+                    
+                    <div class="flex flex-col md:flex-row items-center justify-center gap-6">
+                        <!-- CTA 1: Malaysia PDF -->
+                        <a href="https://bblasset.sharepoint.com/:b:/r/sites/EconUpdate_Research/Econ%20Research%20Publication/11.%20ASEANGOV/20260505%20ASEANGOV_Fiscal%20Policy_Section4_2_Malaysia.pdf?csf=1&web=1&e=SehVqi" 
+                           target="_blank" 
+                           class="btn-cta-primary group">
+                            <svg class="w-6 h-6 mr-3 transition-transform group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                            </svg>
+                            เปิดไฟล์ PDF (ต้นฉบับ)
+                        </a>
+
+                        <!-- CTA 2: ASEAN Fundamental Research -->
+                        <a href="https://bblasset.sharepoint.com/sites/EconUpdate_Research/SitePages/ASEAN%20Fundamental%20Research.aspx?e=3C6H9r&share=IQB7xNol5e53T5h3HTZdo6wRAY0mNiYPDwQpnmSPvgyKjZA" 
+                           target="_blank" 
+                           class="btn-cta-secondary group">
+                            <svg class="w-6 h-6 mr-3 transition-transform group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>
+                            </svg>
+                            ASEAN Fundamental Research
+                        </a>
+                    </div>
+                    <div class="mt-10 flex items-center justify-center gap-2 text-slate-400">
+                        <span class="w-2 h-2 rounded-full bg-teal-600 animate-pulse"></span>
+                        <p class="text-[11px] font-bold uppercase tracking-widest">SharePoint Online • BBLAM Econ Research</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Summary -->
+        <footer class="mb-20 text-center border-t border-slate-200 pt-10">
+            <h3 class="text-2xl font-bold text-slate-800 mb-4 underline decoration-teal-500 decoration-4">บทสรุปภาพรวมทางการคลัง</h3>
+            <p class="text-slate-500 text-sm leading-relaxed mb-6">
+                ความยั่งยืนทางการคลังของมาเลเซียขึ้นอยู่กับความสามารถในการเปลี่ยนเป้าหมาย "Fiscal Consolidation" จากกระดาษสู่การปรับโครงสร้างรายจ่ายจริง โดยเฉพาะการลดสัดส่วนรายจ่ายประจำที่มีสูงถึง 80% และการขยายฐานรายได้ภาษีให้มั่นคงกว่าที่เป็นอยู่ในปัจจุบัน
+            </p>
+            <p class="text-[10px] text-slate-400 font-bold uppercase tracking-widest italic tracking-tight">Malaysia Section Summary Report • 2026 Update</p>
+        </footer>
+    </div>
+
+</body>
+</html>
